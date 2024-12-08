@@ -1,0 +1,15 @@
+<screen name="EventView" position="fill" title="Eventview" backgroundColor="transparent" flags="wfNoBorder">
+  <panel name="p800_Template" />
+  <panel name="p800_Ext" />
+  <panel name="p800_Date" />
+  <panel name="s_RGYB" />
+  <panel name="Event_Info" />
+  <panel name="Ex" />
+  <!-- Provider Name -->
+  <widget name="epg_description" position="80,270" size="1140,640" font="Regular;30" foregroundColor="white" backgroundColor="transpBlack" transparent="1" zPosition="1" />
+  <!-- Side Column Data -->
+  <widget halign="center" font="Regular; 45" noWrap="1" foregroundColor="yellow" backgroundColor="transpBlack" options="movetype=running,direction=left,startpoint=0,startdelay=6000,wrap=1,always=0,repeat=5,oneshot=1" position="80,155" render="iRunningText" size="1140,80" source="Event" transparent="1" zPosition="1">
+    <convert type="EventName">Name</convert>
+  </widget>
+  <eLabel name="" position="80,250" size="1140,2" backgroundColor="ltbluette" zPosition="1" />
+</screen>

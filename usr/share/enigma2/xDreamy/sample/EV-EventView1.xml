@@ -1,0 +1,14 @@
+<screen name="EventView" position="fill" title="Eventview" backgroundColor="transparent" flags="wfNoBorder">
+  <panel name="p800_Template" />
+  <panel name="p800_Ext" />
+  <panel name="s_RGYB" />
+  <panel name="p800_Date" />
+  <panel name="Event_Info" />
+  <panel name="Ex" />
+  <!-- Provider Name -->
+  <widget name="channel" position="128,160" size="1050,80" font="Regular; 60" backgroundColor="header" transparent="1" zPosition="1" />
+  <widget source="Event" render="iBackdropX" scale="fill" position="65,150" size="1170,780" cornerRadius="45" zPosition="-80" alphatest="blend" transparent="1" />
+  <widget source="Event" render="iPosterX" scale="fill" position="65,150" size="1170,780" cornerRadius="45" zPosition="-85" alphatest="blend" transparent="1" />
+  <ePixmap pixmap="difuse.png" position="65,150" size="1170,780" scale="1" cornerRadius="45" zPosition="-50" alphatest="blend" transparent="1" />
+  <widget name="epg_description" position="80,650" size="1140,260" font="Regular;30" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="2" />
+</screen>
